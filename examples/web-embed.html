@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盈客AI - 网页嵌入示例</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; }
+        h1 { color: #333; }
+        pre { background: #f5f5f5; padding: 20px; border-radius: 8px; overflow-x: auto; }
+        .demo-btn { background: #4f8ef7; color: white; padding: 15px 30px; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>🌐 网页嵌入示例</h1>
+    <p>盈客AI客服聊天组件嵌入示例 - 3行代码即可完成集成</p>
+
+    <h2>1. 基础嵌入</h2>
+    <pre><code>&lt;!-- 将代码放在页面底部 &lt;/body&gt; 之前 --&gt;
+&lt;script src="https://cdn.zpfu.com/YOUR_CUSTOMER_ID/chatbot.js"&gt;&lt;/script&gt;</code></pre>
+
+    <h2>2. 带参数配置</h2>
+    <pre><code>&lt;script src="https://cdn.zpfu.com/YOUR_CUSTOMER_ID/chatbot.js?theme=blue&position=right&language=zh"&gt;&lt;/script&gt;</code></pre>
+
+    <h2>3. 参数说明</h2>
+    <table style="width:100%;border-collapse:collapse;margin:20px 0">
+        <tr style="background:#f5f5f5"><th style="padding:10px;border:1px solid #ddd;text-align:left">参数</th><th style="padding:10px;border:1px solid #ddd;text-align:left">说明</th><th style="padding:10px;border:1px solid #ddd;text-align:left">可选值</th></tr>
+        <tr><td style="padding:10px;border:1px solid #ddd">theme</td><td style="padding:10px;border:1px solid #ddd">主题颜色</td><td style="padding:10px;border:1px solid #ddd">blue, purple, green</td></tr>
+        <tr><td style="padding:10px;border:1px solid #ddd">position</td><td style="padding:10px;border:1px solid #ddd">窗口位置</td><td style="padding:10px;border:1px solid #ddd">right, left</td></tr>
+        <tr><td style="padding:10px;border:1px solid #ddd">language</td><td style="padding:10px;border:1px solid #ddd">界面语言</td><td style="padding:10px;border:1px solid #ddd">zh, en, auto</td></tr>
+    </table>
+
+    <h2>4. 完整示例</h2>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;我的网站&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;欢迎访问我的网站&lt;/h1&gt;
+    &lt;p&gt;网页嵌入盈客AI客服&lt;/p&gt;
+    
+    &lt;!-- 盈客AI客服 --&gt;
+    &lt;script src="https://cdn.zpfu.comYOUR_CUSTOMER_ID/chatbot.js?theme=purple&position=right"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <p style="margin-top:30px;color:#888">* 获取 YOUR_CUSTOMER_ID：访问 <a href="https://vip.zpfu.com" target="_blank">vip.zpfu.com</a> 注册后获取</p>
+</body>
+</html>
